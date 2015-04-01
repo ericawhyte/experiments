@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Speedometer</title>
+    <link href="css/reset.css" type="text/css" />
+    <style>
+		body {
+			background-color: black;	
+		}
+		
+		#speed1 {
+			position: absolute;
+			top: 75px;
+			left: 200px;
+		}
+		
+		.dialback {
+			height: 520px;
+			width: 520px;
+			background-color: white;
+			border-radius: 50em;
+			z-index: 1;
+			box-shadow: #FFFFFF 0px 0px 5px;
+		}
+		
+		.dialback img {
+			position: absolute;	
+			top: 200px;
+			left: 150px;
+			width: 200px;
+			z-index: 2;
+		}
+		
+		.outrim {
+			border: 10px solid gray;
+			/*background-color: #999999;*/
+			height: 500px;
+			width: 500px;
+			border-radius: 50em;
+			z-index: 3;
+			box-shadow: inset #FF0000 0px 0px 150px;*
+			/*animation: name duration timing-function delay iteration-count direction;*/
+			animation-name: glow;
+			animation-duration: 8s;
+			-webkit-animation-iteration-count: 1;
+		}
+
+		@-webkit-keyframes glow {
+			0% {
+				box-shadow: inset #FFFFFF 0px 0px 150px;
+			}
+			25% {
+				box-shadow: inset #FF0000 0px 0px 150px;
+			}
+			50% {
+				box-shadow: inset #FFFFFF 0px 0px 150px;
+			}
+			75% {
+				box-shadow: inset #FF0000 0px 0px 150px;
+			}
+		}
+		
+		.tick1 {
+			height: 50px;
+			width: 5px;
+			background-color: black;
+			position: absolute;
+			left: 35px;
+			top: 200px;
+			transform: rotate(-77deg);
+			-ms-transform:rotate(-77deg);
+			-webkit-transform:rotate(-77deg);
+			z-index: 4;
+		}
+		
+		.tick2 {
+			height: 50px;
+			width: 5px;
+			background-color: black;
+			position: absolute;
+			left: 109px;
+			top: 65px;
+			transform: rotate(-45deg);
+			-ms-transform:rotate(-45deg);
+			-webkit-transform:rotate(-45deg);
+			z-index: 4;
+		}
+		
+		.tick3 {
+			height: 50px;
+			width: 5px;
+			background-color: black;
+			position: absolute;
+			left: 255px;
+			top: 10px;
+			z-index: 4;
+		}
+		
+		.tick4 {
+			height: 50px;
+			width: 5px;
+			background-color: black;
+			position: absolute;
+			left: 406px;
+			top: 65px;
+			transform: rotate(45deg);
+			-ms-transform:rotate(45deg);
+			-webkit-transform:rotate(45deg);
+			z-index: 4;
+		}
+		
+		.tick5 {
+			height: 50px;
+			width: 5px;
+			background-color: black;
+			position: absolute;
+			left: 480px;
+			top: 200px;
+			transform: rotate(77deg);
+			-ms-transform:rotate(77deg);
+			-webkit-transform:rotate(77deg);
+			z-index: 4;
+		}
+		
+		.needle {
+			/*background-color: red;*/
+			/*width: 15px;*/
+			/*height: 350px;*/
+			/*width: 0;*/
+			/*height: 0;*/
+			position: absolute;
+			bottom: 100px;
+			left: 250px;
+			border-left: 9px solid transparent;
+			border-right: 9px solid transparent;
+			border-bottom: 320px solid red;
+			border-bottom-left-radius: 5em;
+			border-bottom-right-radius: 5em;
+			-webkit-animation-name: needle;
+			-webkit-animation-duration: 8s;
+			-webkit-animation-iteration-count: 1;
+			-webkit-transform-origin: bottom;
+			transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+			z-index: 5;
+		}
+
+		@-webkit-keyframes needle {
+			0% {
+				transform: rotate(-45deg);
+				-ms-transform: rotate(-45deg);
+				-webkit-transform: rotate(-45deg);
+			}
+			25% {
+				transform: rotate(25deg);
+				-ms-transform: rotate(25deg);
+				-webkit-transform: rotate(25deg);
+			}
+			50% {
+				transform: rotate(-35deg);
+				-ms-transform: rotate(-35deg);
+				-webkit-transform: rotate(-35deg);
+			}
+			75% {
+				transform: rotate(50deg);
+				-ms-transform: rotate(50deg);
+				-webkit-transform: rotate(50deg);
+			}
+			100% {
+				transform: rotate(-45deg);
+				-ms-transform: rotate(-45deg);
+				-webkit-transform: rotate(-45deg);
+			}	
+		}
+	</style>
+    </head>
+    <body>
+    	<div id="speed1">
+        	<div class="dialback">
+            	<div class="outrim">
+                
+                    	<div class="tick1">
+                        </div>
+                        <div class="tick2">
+                        </div>
+                        <div class="tick3">
+                        </div>
+                        <div class="tick4">
+                        </div>
+                        <div class="tick5">
+                        </div>
+                    	<div class="needle">
+                        </div>
+                  
+                </div>
+                <img src="img/ew-logo-black.png" alt="ew logo" />
+            </div>
+        </div>
+        <div id="speed2">
+        </div>
+    </body>
+</html>
