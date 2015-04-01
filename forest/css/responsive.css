@@ -1,0 +1,1644 @@
+/*============================================*/
+	
+	/*-------------Screen Hright 2048--------------*/
+	
+		/*ipad retina landscape*/
+		
+		/*@media only screen 
+		and (min-height: 1801px) 
+		and (max-height: 2048px) {
+			body {
+				width: 4000px;	
+			}
+			header {
+				width: 500px;	
+			}
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				width: 200px;
+				padding: 0;
+				top: 120px;
+				left: 70px;
+			}
+			header h1 img {
+				padding-top: 70px;
+				padding-left: 160px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 70px;
+				padding-left: 150px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 120px;
+				padding: 0;
+				width: 800px;
+				height: 500px;
+				left: 250px;	
+				font-size: 16px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 120px;
+				width: 500px;
+				height: 500px;
+				left: 200px;	
+			}
+			#dynamicboothvid {
+				top: 120px;
+				width: 500px;
+				height: 500px;
+				left: 1180px;	
+			}
+			#gallery {
+				top: 100px;
+				width: 800px;
+				height: 500px;
+				left: 1400px;	
+			}
+			#sequence {
+				width: 599px;
+				height: 400px;	
+			}
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 200px;	
+			}
+			.prev {
+				top: 200px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer {
+				
+			}
+			#pillar1 {
+			
+			}
+			#pillar2 {
+				
+			}
+			#pillar3 {
+				
+			}
+			#pillar4 {
+				
+			}
+			#pillar5 {
+				
+			}
+		}*/
+
+/*============================================*/
+	
+	/*-------------Screen Height 1800--------------*/
+	
+		/*@media only screen
+		and (min-height: 1601px)
+		and (max-height: 1800px) {
+			body {
+				width: 6188px;	
+			}
+			header {
+				width: 400px;	
+			}
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				width: 400px;
+				padding: 0;
+				top: 300px;
+				left: 150px;
+			}
+			header h1 img {
+				padding-top: 70px;
+				padding-left: 160px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 70px;
+				padding-left: 150px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 250px;
+				padding: 0;
+				width: 800px;
+				height: 600px;
+				left: 1350px;	
+				font-size: 16px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 250px;
+				width: 800px;
+				height: 800px;
+				left: 2400px;	
+			}
+			#dynamicboothvid {
+				top: 250px;
+				width: 800px;
+				height: 800px;
+				left: 3000px;	
+			}
+			#gallery {
+				top: 200px;
+				width: 800px;
+				height: 700px;
+				left: 4000px;	
+			}
+			#sequence {
+				width: 599px;
+				height: 400px;	
+			}
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 200px;	
+			}
+			.prev {
+				top: 200px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer {
+				
+			}
+			#pillar1 {
+			
+			}
+			#pillar2 {
+				
+			}
+			#pillar3 {
+				
+			}
+			#pillar4 {
+				
+			}
+			#pillar5 {
+				
+			}
+		}
+*/
+/*============================================*/
+	
+	/*-------------Screen Height 1600--------------*/
+	
+		/*@media only screen
+		and (min-height: 1537px)
+		and (max-height: 1600px) {
+			body {
+				width: 6188px;	
+			}
+			header {
+				width: 400px;	
+			}
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				width: 400px;
+				padding: 0;
+				top: 300px;
+				left: 150px;
+			}
+			header h1 img {
+				padding-top: 70px;
+				padding-left: 160px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 70px;
+				padding-left: 150px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 250px;
+				padding: 0;
+				width: 800px;
+				height: 600px;
+				left: 1350px;	
+				font-size: 16px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 250px;
+				width: 800px;
+				height: 800px;
+				left: 2400px;	
+			}
+			#dynamicboothvid {
+				top: 250px;
+				width: 800px;
+				height: 800px;
+				left: 3000px;	
+			}
+			#gallery {
+				top: 200px;
+				width: 800px;
+				height: 700px;
+				left: 4000px;	
+			}
+			#sequence {
+				width: 599px;
+				height: 400px;	
+			}
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 200px;	
+			}
+			.prev {
+				top: 200px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer {
+				
+			}
+			#pillar1 {
+			
+			}
+			#pillar2 {
+				
+			}
+			#pillar3 {
+				
+			}
+			#pillar4 {
+				
+			}
+			#pillar5 {
+				
+			}
+		}
+	*/
+/*============================================*/
+	
+	/*-------------Screen Height 1536--------------*/
+	
+		/*ipad retina portrait--------------conflicts with retina landscape*/
+		
+		/*@media only screen 
+		and (min-height: 1441px) 
+		and (max-height: 1536px) {
+			body {
+				width: 6188px;	
+			}
+			header {
+				width: 400px;	
+			}
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				width: 400px;
+				padding: 0;
+				top: 300px;
+				left: 150px;
+			}
+			header h1 img {
+				padding-top: 70px;
+				padding-left: 160px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 70px;
+				padding-left: 150px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 250px;
+				padding: 0;
+				width: 800px;
+				height: 600px;
+				left: 1350px;	
+				font-size: 16px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 250px;
+				width: 800px;
+				height: 800px;
+				left: 2400px;	
+			}
+			#dynamicboothvid {
+				top: 250px;
+				width: 800px;
+				height: 800px;
+				left: 3000px;	
+			}
+			#gallery {
+				top: 200px;
+				width: 800px;
+				height: 700px;
+				left: 4000px;	
+			}
+			#sequence {
+				width: 599px;
+				height: 400px;	
+			}
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 200px;	
+			}
+			.prev {
+				top: 200px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer {
+				
+			}
+			#pillar1 {
+			
+			}
+			#pillar2 {
+				
+			}
+			#pillar3 {
+				
+			}
+			#pillar4 {
+				
+			}
+			#pillar5 {
+				
+			}
+		}*/
+		
+/*============================================*/
+	
+	/*-------------Screen Height 1440--------------*/
+	
+		/*@media only screen 
+		and (min-height: 1137px) 
+		and (max-height: 1440px) {
+			body {
+				width: 9000px;	
+			}
+			header {
+				width: 400px;	
+			}
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				width: 400px;
+				padding: 0;
+				top: 350px;
+				left: 190px;
+			}
+			header h1 img {
+				padding-top: 120px;
+				padding-left: 160px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top:135px;
+				padding-left: 150px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 300px;
+				padding: 0;
+				width: 1000px;
+				height: 800px;
+				left: 26%;	
+				font-size: 16px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 100%;
+				width: 800px;
+				height: 800px;
+				left: 2340px;	
+			}
+			#dynamicboothvid {
+				top: -100%;
+				width: 800px;
+				height: 800px;
+				left: 3000px;	
+			}
+			#gallery {
+				top: 300px;
+				width: 800px;
+				height: 700px;
+				left: 95%;	
+			}
+			#sequence {
+				width: 599px;
+				height: 400px;	
+			}
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 200px;	
+			}
+			.prev {
+				top: 200px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer {
+				left: 0;
+			}
+			#pillar1 {
+				left: 70%;
+			}
+			#pillar2 {
+				left: 235%;
+			}
+			#pillar3 {
+				left: 395%;
+			}
+			#pillar4 {
+				left: 530%;
+			}
+			#pillar5 {
+				left: 700%;
+			}
+		}
+		*/
+
+/*============================================*/
+	
+	/*-------------Screen Height 1136--------------*/
+	
+		/*iphone landscape*/
+/*DONE*/		
+		/*@media only screen 
+		and (min-height: 1081px) 
+		and (max-height: 1136px) {
+			body {
+				width: 7500px;	
+			}
+			header {
+				width: 100px;	
+			}
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				padding: 0;
+				top: 250px;
+				width: 400px;
+				left: 130px;
+			}
+			header h1 img {
+				padding-top: 120px;
+				padding-left: 160px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 135px;
+				padding-left: 150px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 300px;
+				padding: 0;
+				width: 800px;
+				height: 800px;
+				left: 22.5%;	
+				font-size: 14px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 100%;
+				width: 800px;
+				height: 800px;
+				left: 1900px;	
+			}
+			#dynamicboothvid {
+				top: -100%;
+				width: 800px;
+				height: 800px;
+				left: 2500px;	
+			}
+			#gallery {
+				top: 300px;
+				width: 900px;
+				height: 900px;
+				left: 78%;	
+			}
+			#sequence {
+				width: 599px;
+				height: 400px;	
+			}
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 250px;	
+			}
+			.prev {
+				top: 250px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer {
+				left: 0;
+			}
+			#pillar1 {
+				left: 70%;
+			}
+			#pillar2 {
+				left: 195%;
+			}
+			#pillar3 {
+				left: 335%;
+			}
+			#pillar4 {
+				left: 448%;
+			}
+			#pillar5 {
+				left: 585%;
+			}
+		}*/
+		
+		
+/*============================================*/
+
+	/*-------------Screen Height 1080---------------*/
+/*DONE*/	
+		/*@media only screen
+		and (min-height: 1051px)
+		and (max-height: 1080px) {
+			body {
+				width: 7899px;	
+			}
+			header {
+				width: 100px;	
+			}
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				padding: 0;
+				top: 230px;
+				width: 400px;
+				left: 100px;
+			}
+			header h1 img {
+				padding-top: 120px;
+				padding-left: 160px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 135px;
+				padding-left: 150px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 250px;
+				padding: 0;
+				width: 800px;
+				height: 800px;
+				left: 21%;	
+				font-size: 14px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 100%;
+				width: 800px;
+				height: 800px;
+				left: 1750px;	
+			}
+			#dynamicboothvid {
+				top: 100%;
+				width: 800px;
+				height: 800px;
+				left: 2150px;	
+			}
+			#gallery {
+				top: 250px;
+				width: 900px;
+				height: 900px;
+				left: 73%;	
+			}
+			#sequence {
+				width: 599px;
+				height: 400px;	
+			}
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 250px;	
+			}
+			.prev {
+				top: 250px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer {
+				left: 0;
+			}
+			#pillar1 {
+				left: 60%;
+			}
+			#pillar2 {
+				left: 185%;
+			}
+			#pillar3 {
+				left: 312%;
+			}
+			#pillar4 {
+				left: 426%;
+			}
+			#pillar5 {
+				left: 555%;
+			}
+		}*/
+	
+/*============================================*/
+
+	/*-------------Screen Height 1050---------------*/
+/*DONE*/	
+		/*@media only screen
+		and (min-height: 1025px)
+		and (max-height: 1050px) {
+			body {
+				width: 7000px;	
+			}
+			header {
+				width: 100px;	
+			}
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				padding: 0;
+				top: 200px;
+				width: 400px;
+				left: 100px;
+			}
+			header h1 img {
+				padding-top: 130px;
+				padding-left: 160px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 145px;
+				padding-left: 150px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 250px;
+				padding: 0;
+				width: 800px;
+				height: 800px;
+				left: 20.5%;	
+				font-size: 14px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 100%;
+				width: 800px;
+				height: 800px;
+				left: 1600px;	
+			}
+			#dynamicboothvid {
+				top: 100%;
+				width: 800px;
+				height: 800px;
+				left: 2000px;	
+			}
+			#gallery {
+				top: 250px;
+				width: 900px;
+				height: 900px;
+				left: 75%;	
+			}
+			#sequence {
+				width: 599px;
+				height: 400px;	
+			}
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 250px;	
+			}
+			.prev {
+				top: 250px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer {
+				left: 0;
+			}
+			#pillar1 {
+				left: 52%;
+			}
+			#pillar2 {
+				left: 185%;
+			}
+			#pillar3 {
+				left: 302%;
+			}
+			#pillar4 {
+				left: 412%;
+			}
+			#pillar5 {
+				left: 530%;
+			}
+		}
+		*/
+
+/*============================================*/
+	
+	/*-------------Screen Height 1024--------------*/
+	
+		/*ipad mini landscape*/
+/*DONE*/		
+		/*@media only screen 
+		and (min-height: 961px) 
+		and (max-height: 1024px) {
+			body {
+				width: 6600px;	
+			}
+			header {
+				width: 100px;	
+			}
+			header p {
+				font-size: 12px;
+			}
+			header h1 {
+				padding: 0;
+				top: 250px;
+				width: 400px;
+				left: 100px;
+			}
+			header h1 img {
+				padding-top: 70px;
+				padding-left: 160px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 70px;
+				padding-left: 150px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 250px;
+				padding: 0;
+				width: 800px;
+				height: 800px;
+				left: 20%;	
+				font-size: 14px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 100%;
+				width: 800px;
+				height: 800px;
+				left: 1500px;	
+			}
+			#dynamicboothvid {
+				top: -100%;
+				width: 800px;
+				height: 800px;
+				left: 1900px;	
+			}
+			#gallery {
+				top: 250px;
+				width: 900px;
+				height: 900px;
+				left: 70%;	
+			}
+			#sequence {
+				width: 599px;
+				height: 400px;	
+			}
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 250px;	
+			}
+			.prev {
+				top: 250px;
+			}
+			footer p {
+				font-size: 12px;	
+			}
+			#pillarlayer {
+				left: 0;
+			}
+			#pillar1 {
+				left: 50%;
+			}
+			#pillar2 {
+				left: 165%;
+			}
+			#pillar3 {
+				left: 274%;
+			}
+			#pillar4 {
+				left: 355%;
+			}
+			#pillar5 {
+				left: 475%;
+			}
+		}
+*/
+/*============================================*/
+	
+	/*-------------Screen Height 960---------------*/
+	
+		/*old school monitors*/
+/*DONE*/		
+		/*@media only screen 
+		and (min-height: 901px) 
+		and (max-height: 960px) {
+			body {
+				width: 6400px;	
+			}
+			header {
+				width: 73px;	
+			}
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				padding: 0;
+				top: 200px;
+				width: 400px;
+				left: 50px;
+			}
+			header h1 img {
+				padding-top: 100px;
+				padding-left: 180px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 115px;
+				padding-left: 165px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 250px;
+				padding: 0;
+				width: 900px;
+				height: 700px;
+				left: 15%;	
+				font-size: 16px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 100%;
+				width: 700px1400px;
+				height: 700px;
+				left: 1400px;	
+			}
+			#dynamicboothvid {
+				top: -100%;
+				width: 700px;
+				height: 700px;
+				left: 1700px;	
+			}
+			#gallery {
+				top: 250px;
+				width: 800px;
+				height: 800px;
+				left: 70%;	
+			}
+			#sequence {
+				width: 599px;
+				height: 400px;	
+			}
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 200px;	
+			}
+			.prev {
+				top: 200px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer {
+				left: 0;	
+			}
+			#pillar1 {
+				left: 50%;
+			}
+			#pillar2 {
+				left: 170%;
+			}
+			#pillar3 {
+				left: 262%;
+			}
+			#pillar4 {
+				left: 340%;
+			}
+			#pillar5 {
+				left: 450%;
+			}
+		}*/
+		
+/*============================================*/
+
+	/*-------------Screen Height 900---------------*/
+/*DONE*/	
+		/*@media only screen
+		and (min-height: 801px)
+		and (max-height: 900px) {
+			body {
+				width: 6000px;	
+			}
+			header {
+				width: 100px;	
+			}
+			header p {
+				font-size: 12px;
+			}
+			header h1 {
+				padding: 0;
+				top: 190px;
+			}
+			header h1 img {
+				padding-top: 90px;
+				padding-left: 220px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 95px;
+				padding-left: 205px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 200px;
+				padding: 0;
+				width: 800px;
+				height: 400px;
+				left: 15%;	
+				font-size: 14px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 100%;
+				width: 700px;
+				height: 700px;
+				left: 1217px;	
+			}
+			#dynamicboothvid {
+				top: -175%;
+				width: 700px;
+				height: 700px;
+				left: 1450px;	
+			}
+			#gallery {
+				top: 200px;
+				width: 800px;
+				height: 700px;
+				left: 70%;	
+			}
+			#sequence {
+				width: 599px;
+				height: 400px;	
+			}
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 200px;	
+			}
+			.prev {
+				top: 200px;
+			}
+			#pillarlayer {
+				left: 0;
+			}
+			#pillar1 {
+				left: 50%;
+			}
+			#pillar2 {
+				left: 140%;
+			}
+			#pillar3 {
+				left: 240%;
+			}
+			#pillar4 {
+				left: 320%;
+			}
+			#pillar5 {
+				left: 410%;
+			}
+			footer p {
+				font-size: 12px;	
+			}
+		}
+	*/
+	
+/*============================================*/
+
+	/*-------------Screen Height 800---------------*/
+/*DONE*/	
+		/*@media only screen
+		and (min-height: 769px)
+		and (max-height: 800px) {
+			body {
+				width: 5047px;	
+			}
+			header {
+				width: 500px;	
+			}	
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				width: 400px;
+				padding: 0;
+				top: 170px;
+				left: 20px;
+			}
+			header h1 img {
+				padding-top: 70px;
+				padding-left: 160px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 70px;
+				padding-left: 150px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 200px;
+				padding: 0;
+				width: 800px;
+				height: 600px;
+				font-size: 16px;
+				overflow: visible;
+				left: 17%;
+			}	
+			#jazzyjeffvid {
+				top: 100%;
+				height: 700px;
+				width: 700px;
+				left: 1100px;	
+			}
+			#dynamicboothvid {
+				top: -175%;
+				height: 600px;
+				width: 600px;
+				left: 1300px;	
+			}
+			#gallery {
+				top: 200px;
+				width: 800px;
+				height: 800px;
+				left: 60%;	
+			}
+			#sequence{
+				width: 599px;
+				height: 400px;	
+			} 
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 200px;
+			}
+			
+			.prev {
+				top: 200px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer {
+				left: 0;
+			}
+			#pillar1 {
+				left: 30%;
+			}
+			#pillar2 {
+				left: 120%;
+			}
+			#pillar3 {
+				left: 203%;
+			}
+			#pillar4 {
+				left: 266%;
+			}
+			#pillar5 {
+				left: 350%;
+			}
+		}*/
+
+/*============================================*/
+
+	/*-------------Screen Height 768---------------*/
+	
+		/* iPads (portrait) -----------*/
+/*DONE*/		
+		/*@media only screen 
+		and (min-height: 641px) 
+		and (max-height: 768px) {
+			body {
+				width: 4813px;	
+			}
+			header {
+				width: 300px;	
+			}	
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				width: 300px;
+				padding: 0;
+				top: 150px;
+				left: 40px;
+			}
+			header h1 img {
+				padding-top: 70px;
+				padding-left: 130px;
+				height: 108px;
+				width: 90px;	
+			}
+			header h1 span img {
+				padding-top: 70px;
+				padding-left: 120px;
+				position: absolute;
+				width: 130px;
+				height: 31px;
+				top: 100px;
+			}
+			#writeup {
+				top: 150px;
+				padding: 0;
+				width: 700px;
+				height: 500px;
+				font-size: 16px;
+				overflow: visible;
+				left: 14%;
+			}	
+			#jazzyjeffvid {
+				top: 150px;
+				height: 700px;
+				width: 500px;
+				left: 1100px;	
+			}
+			#dynamicboothvid {
+				top: 150px;
+				height: 700px;
+				width: 500px;
+				left: 1500px;	
+			}
+			#gallery {
+				top: 130px;
+				width: 800px;
+				height: 800px;
+				left: 57%;	
+			}
+			#sequence{
+				width: 599px;
+				height: 400px;	
+			} 
+			#sequence img {
+				width: 599px;
+				height: 400px;	
+			}
+			.next {
+				top: 200px;
+			}
+			
+			.prev {
+				top: 200px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer {
+				left: 0;
+			}
+			#pillar1 {
+				left: 25%;
+			}
+			#pillar2 {
+				left: 110%;
+			}
+			#pillar3 {
+				left: 200%;
+			}
+			#pillar4 {
+				left: 245%;
+			}
+			#pillar5 {
+				left: 320%;
+			}
+			@keyframes nike {
+				
+			}
+		}*/
+
+/*============================================*/
+
+	/*-------------Screen Height 640---------------*/
+	
+		/* iphone (portrait) ----------- */
+
+		/*@media only screen 
+		and (min-height: 601px) 
+		and (max-height: 640px) {
+			body {
+				width: 3877px;	
+			}
+			header {
+				width: 300px;	
+			}
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				width: 300px;
+				padding: 0;
+				top: 100px;
+			}
+			header h1 img {
+				padding-top: 90px;
+				padding-left: 150px;
+				height: 88px;
+				width: 70px;	
+			}
+			header h1 span img {
+				padding-top: 75px;
+				padding-left: 150px;
+				position: absolute;
+				width: 87px;
+				height: 21px;
+			}
+			#writeup {
+				top: 200px;
+				padding: 0;
+				width: 600px;
+				height: 800px;
+				left: 17%;	
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 100%;
+				width: 600px;
+				height: 800px;
+				left: 800px;	
+			}
+			#dynamicboothvid {
+				top: -175%;
+				width: 600px;
+				height: 800px;
+				left: 1000px;	
+			}
+			#gallery {
+				top: 100px;
+				width: 600px;
+				height: 400px;
+				left: 50%;	
+			}
+			#sequence{
+				width: 400px;
+				height: 267px;	
+			} 
+			#sequence img {
+				width: 400px;
+				height: 267px;	
+			}
+			.next {
+				top: 150px;
+			}
+			
+			.prev {
+				top: 150px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer, #pillar1, #pillar2, #pillar3, #pillar4, #pillar5 {
+				display: none;
+			}
+		}
+*/
+/*============================================*/
+
+	/*-------------Screen Height 600---------------*/
+/*DONE*/	
+		/*@media only screen
+		and (min-height: 480px)
+		and (max-height: 600px) {
+			body {
+				width: 3584px;	
+			}
+			header {
+				width: 200px;	
+			}
+			header p {
+				font-size: 14px;
+			}
+			header h1 {
+				width: 200px;
+				padding: 0;
+				top: 85px;
+			}
+			header h1 img {
+				padding-top: 90px;
+				padding-left: 140px;
+				height: 78px;
+				width: 60px;	
+			}
+			header h1 span img {
+				padding-top: 75px;
+				padding-left: 140px;
+				position: absolute;
+				width: 70px;
+				height: 17px;
+			}
+			#writeup {
+				top: 100px;
+				padding: 0;
+				width: 600px;
+				height: 800px;
+				left: 14%;	
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 100%;
+				width: 400px;
+				height: 600px;
+				left: 700px;	
+			}
+			#dynamicboothvid {
+				top: -175%;
+				width: 400px;
+				height: 600px;
+				left: 1000px;	
+			}
+			#gallery {
+				top: 100px;
+				width: 600px;
+				height: 400px;
+				left: 57%;	
+			}
+			#sequence{
+				width: 400px;
+				height: 267px;	
+			} 
+			#sequence img {
+				width: 400px;
+				height: 267px;	
+			}
+			.next {
+				top: 150px;
+			}
+			
+			.prev {
+				top: 150px;
+			}
+			footer p {
+				font-size: 14px;	
+			}
+			#pillarlayer, #pillar1, #pillar2, #pillar3, #pillar4, #pillar5 {
+				display: none;
+			}
+		}
+*/
+/*============================================*/
+
+	/*-------------Screen Height 480---------------*/
+
+		/* Smartphones (portrait and landscape) ----------- */
+/*DONE*/		
+		/*@media only screen 
+		and (min-height: 320px) 
+		and (max-height: 480px) {
+			body {
+				width: 1463px;	
+			}
+			header {
+				width: 73px;	
+			}
+			header p {
+				font-size: 10px;
+			}
+			header h1 {
+				padding: 0;
+				top: 100px;
+				left: 50px;
+				font-size: 28px;
+				text-align: center;
+			}
+			#writeup {
+				top: 30px;
+				padding: 0;
+				width: 380px;
+				height: 260px;
+				left: 370px;	
+				font-size: 12px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 60px;
+				width: 300px;
+				height: 300px;
+				left: 620px;	
+			}
+			#dynamicboothvid {
+				top: 60px;
+				width: 300px;
+				height: 300px;
+				left: 780px;	
+			}
+			#gallery {
+				top: 60px;
+				width: 350px;
+				height: 150px;
+				left: 950px;	
+			}
+			#sequence {
+				width: 200px;
+				height: 134px;	
+			}
+			#sequence img {
+				width: 200px;
+				height: 134px;	
+			}
+			.next {
+				top: 100px;	
+			}
+			.prev {
+				top: 100px;
+			}
+			#pillarlayer, #pillar1, #pillar2, #pillar3, #pillar4, #pillar5 {
+				display: none;
+			}
+			footer p {
+				font-size: 10px;	
+			}
+		}*/
+		
+/*============================================*/
+
+	/*-------------Screen Height 320---------------*/
+/*DONE*/	
+		/*@media only screen
+		and (min-height: 0px)
+		and (max-height: 320px) {
+			body {
+				width: 1536px;	
+			}
+			header {
+				width: 73px;	
+			}
+			header p {
+				font-size: 8px;
+			}
+			header h1 {
+				padding: 0;
+				top: 50px;
+				left: 20px;
+				font-size: 16px;
+				text-align: center;
+			}
+			#writeup {
+				top: 10px;
+				padding: 0;
+				width: 300px;
+				height: 100px;
+				left: 150px;	
+				font-size: 8px;
+				overflow: visible;
+			}
+			#jazzyjeffvid {
+				top: 30px;
+				width: 200px;
+				height: 200px;
+				left: 200px;	
+			}
+			#dynamicboothvid {
+				top: 30px;
+				width: 200px;
+				height: 200px;
+				left: 280px;	
+			}
+			#gallery {
+				top: 20px;
+				width: 350px;
+				height: 150px;
+				left: 350px;	
+			}
+			#sequence {
+				width: 200px;
+				height: 134px;	
+			}
+			#sequence img {
+				width: 200px;
+				height: 134px;	
+			}
+			.next {
+				top: 100px;	
+			}
+			.prev {
+				top: 100px;
+			}
+			#pillarlayer, #pillar1, #pillar2, #pillar3, #pillar4, #pillar5 {
+				display: none;
+			}
+			footer p {
+				font-size: 8px;	
+			}
+		}*/
+	
+/*============================================*/
+		
+/*============================================*/
+
+/*============================================*/
+
+/*============================================*/
+
+/*#pillarlayer, #pillar1, #pillar2, #pillar3, #pillar4, #pillar5 {
+				display: none;
+			}*/

@@ -1,0 +1,110 @@
+body {
+	
+}
+
+body > img {
+	
+}
+
+body > header {
+	background-color: #cbce66;
+	background-color: hsla(60,100%,80%,0.5);
+	border-top-left-radius: 0em;
+	border-top-right-radius: 500em;
+	border-bottom-left-radius: 500em;
+	border-bottom-right-radius: 0em;
+	transform: rotate(-25deg);
+	-ms-transform:rotate(-25deg);
+	-webkit-transform:rotate(-25deg);
+}
+
+body > header > h1 {
+	transform: rotate(25deg);
+	-ms-transform:rotate(25deg);
+	-webkit-transform:rotate(25deg);
+}
+
+body > section#mid {
+	
+}
+
+body > section#mid > img#mid_ground {
+	
+}
+
+body > section#mid + section {
+	
+}
+
+body > section#mid + section > article {
+	/*background-color: #f4f5ca;*/
+	background-color: #cbce66;
+	background-color: hsla(60,100%,80%,0.5);
+	border-top-left-radius: 500em;
+	border-top-right-radius: 0em;
+	border-bottom-left-radius: 0em;
+	border-bottom-right-radius: 500em;
+	transform: rotate(25deg);
+	-ms-transform:rotate(25deg);
+	-webkit-transform:rotate(25deg);
+}
+
+body > section#mid + section > article > p {
+	transform: rotate(-25deg);
+	-ms-transform:rotate(-25deg);
+	-webkit-transform:rotate(-25deg);
+}
+
+body > section#mid + section > article + article {
+	background-color: #cbce66;
+	background-color: hsla(60,100%,80%,0.5);
+	border-top-left-radius: 0em;
+	border-top-right-radius: 500em;
+	border-bottom-left-radius: 500em;
+	border-bottom-right-radius: 0em;
+	transform: rotate(-50deg);
+	-ms-transform:rotate(-50deg);
+	-webkit-transform:rotate(-50deg);
+}
+
+body > section#mid + section > article + article > p {
+	transform: rotate(50deg);
+	-ms-transform:rotate(50deg);
+	-webkit-transform:rotate(50deg);
+}
+
+body > section#trees {
+	
+}
+
+body > section#trees > img#birch {
+	
+}
+
+body > section#trees > img#tree1 {
+	
+}
+
+body > section#trees > img#tree2 {
+	
+}
+
+body > section#trees > img#tree3 {
+	
+}
+
+body > section#trees > img#tree4 {
+	
+}
+
+body > section#trees > img#tree5 {
+	
+}
+
+body > footer {
+	
+}
+
+body > footer > p {
+	
+}

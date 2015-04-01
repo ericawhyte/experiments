@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Layout, Sizes and Stacks */
+
+/*outline is used purely for positioning and is to be commented out for production, but left in for emergency fixes*/
+
+body {
+	outline: 2px solid red;
+	height: 100%;
+	background-color: black;
+	/*I know it's not best practise but it's the only way to get firefox and chrome to render the same way (at least that I've found thus far*/
+	-moz-overflow: hidden;
+}
+
+body > img {
+	outline: 2px solid pink;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -10;
+	-moz-overflow: hidden;
+}
+
+body > header {
+	outline: 2px solid orange;	
+	position: absolute;
+	height: 50%;
+	width: 250px;
+	top: 20%;
+	left: 100px;
+	z-index: 2;
+}
+
+body > header > h1 {
+	outline: 4px dotted lavender;
+	padding-top: 55%;
+	padding-left: 14.25%;
+}
+
+body > section#mid { /*this is my problem child on the x*/
+	outline: 2px solid yellow;
+	position: absolute;
+	height: 100%;
+	width: 2500px;
+	z-index: 0;
+}
+
+body > section#mid > img#mid_ground {
+	outline: 2px dashed white;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	-moz-overflow: hidden;
+}
+
+body > section#mid + section {
+	outline: 2px solid green;
+	position: absolute;	
+	height: 100%;
+	/*z-index: 5;*/
+}
+
+body > section#mid + section > article {
+	outline: 2px solid aqua;
+	position: absolute;	
+	height: 57%/*643----366.51*/;
+	width: 600px;
+	top: 22% /*141.46px*/;
+	left: 700px;
+	z-index: 5;
+	overflow: hidden;
+}
+
+body > section#mid + section > article > p {
+	outline: 2px dashed pink;
+	width: 500px;
+	padding-top: 15.5%;
+	padding-left: 6%;	
+	overflow: hidden;
+}
+
+body > section#mid + section > article + article {
+	outline: 2px solid navy;
+	position: absolute;	
+	height: 67%/*430.81*/;
+	width: 650px;
+	top: 5%/*32.15*/;
+	left: 1600px;
+	z-index: 3;
+	overflow: hidden;
+}
+
+body > section#mid + section > article + article > p {
+	outline: 2px dotted red;
+	width: 400px;
+	padding-top: 8%;
+	padding-left: 29%;
+	overflow: hidden;
+}
+
+body > section#trees {
+	outline: 2px solid blue;
+	position: absolute;	
+	height: 100%;
+	width: 2500px;
+	z-index: 3;
+	-moz-overflow: hidden;
+}
+
+body > section#trees > img#birch {
+	outline: 2px dashed red;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: -5%;
+	z-index: 4;
+	overflow: hidden;
+}
+
+body > section#trees > img#tree1 {
+	outline: 2px dashed orange;	
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 20%;
+	z-index: 4;
+	overflow: hidden;
+}
+
+body > section#trees > img#tree2 {
+	outline: 2px dashed yellow;
+	position: absolute;	
+	height: 100%;
+	top: 0;
+	left: 40%;
+	z-index: 8;
+	overflow: hidden;
+}
+
+body > section#trees > img#tree3 {
+	outline: 2px dashed green;
+	position: absolute;	
+	height: 100%;
+	top: 0;
+	left: 60%;
+	z-index: 4;
+	overflow: hidden;
+}
+
+body > section#trees > img#tree4 {
+	outline: 2px dashed blue;
+	position: absolute;	
+	height: 100%;
+	top: 0;
+	left: 80%;
+	z-index: 8;
+	overflow: hidden;
+}
+
+body > section#trees > img#tree5 {
+	outline: 2px dashed purple;	
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 107%;
+	z-index: 4;
+	overflow: hidden;
+}
+
+body > footer {
+	outline: 2px solid purple;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	bottom: 0;
+	overflow: hidden;
+	
+}
+
+body > footer > p {
+	outline: 2px dotted aqua;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	bottom: 0;
+	overflow: hidden;
+}
