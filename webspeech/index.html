@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Web Speech - Hello Computer</title>
+		<!-- <link href="styles.css" type="text/css" rel="stylesheet" /> -->
+		<!--<script src="talkie.js" type="text/javascript"></script>-->
+	</head>
+	<body>
+		<h1>Web Speech - Hello Computer</h1>
+		 <span id="ws-unsupported" class="api-support hidden">API not supported</span>
+		<h3>What You're Saying</h3>
+		<textarea id="transcribe" readonly="readonly"></textarea>
+		<!-- <div id="translate"></div> -->
+		<div id="log"></div>
+		<button id="start">Start</button>
+		<button id="stop">Stop</button>
+		<!-- <select id="lang">
+			<option>de</option>
+			<option>en</option>
+			<option>es</option>
+			<option selected>fr</option>
+			<option>it</option>
+			<option>nl</option>
+			<option>zh</option>
+		</select> -->
+		<button id="what">What did you say?</button>
+		<script>
+			window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+			var recognizer = new window.SpeechRecognition();
+			var transcribe = document.getElementById('transcribe');
+			//var translate = document.getElementById('translate');
+			var log = document.getElementById('log');
+			var lang = document.getElementById('lang');
+			var DEST_LANG = 'en';
+			
+
+			/********************LISTENING*********************/
+			//Doesn't stop listening if the user pauses
+			recognizer.continuous = true;
+
+			//Start recognizing speech
+			recognizer.onresult = function(event) {
+				transcribe.textContent = '';
+				for (var i = event.resultIndex; i < event.results.length; i++) {
+					transcribe.textContent = event.results[i][0].transcript;
+				}
+			};
+
+			recognizer.onerror = function(event) {
+				log.innerHTML = 'Recognition error: ' + event.message + '<br/>' + log.innerHTML;
+			};
+
+			/***************TRANSLATE***************/
+
+			//had to abandon - google translate api is paid service
+
+			// translater = function(txt) {
+			// 	var xhr = new XMLHttpRequest();
+			// 	var translateURL = ['translate.google.com/translate_a/t?client=t&hl=en&sl=en&tl=', DEST_LANG,'&ie=UTF-8&oe=UTF-8&multires=1&otf=2&ssel=0&tsel=0&sc=1&q=',encodeURIComponent(txt)].join('');
+			// 	xhr.open('GET', 'http://www.corsproxy.com/' + translateURL, true);
+			// 	xhr.onload = function(e) {
+			// 		var arr = eval(e.target.response);
+			// 		var translateText = arr[0][0][0];
+					
+			// 		translate.innerHTML = '<div>' + translateText + '</div>';
+				
+			// 		//speak(translateText);
+			// 	}.bind(this);
+
+			// 	xhr.send();
+			//}
+
+			/******************SYNTHESIZING*********************/
+			var talk = new SpeechSynthesisUtterance('Supercalifragilisticexpialidocious! Even though the sound of it is something quite atrocious!	If you say it loud enough, you\'ll always sound precocious,	Supercalifragilisticexpialidocious! Um-diddle-diddle-um-diddleye. Um-diddle-diddle-um-diddleye.');
+			var voices = window.speechSynthesis.getVoices();
+			talk.voice = voices[10];
+			talk.voiceURI = 'native';
+			talk.volume = 1;
+			talk.rate = 10;
+			talk.pitch = 2;
+			talk.lang = 'fr-FR';
+					
+
+			/******************WHERE THE MAGIC HAPPENS ON CLICK*******************/
+
+			//Add event listener to start button
+			document.getElementById('start').addEventListener('click', function() {
+				try {
+					recognizer.start();
+					log.innerHTML = 'recognition started' + '<br/>' + log.innerHTML;
+				} catch(ex) {
+					log.innerHTML = 'Recognition error: ' + ex.message + '<br />' + log.innerHTML;
+				}
+			});
+
+			//Add event listener to stop button
+			document.getElementById('stop').addEventListener('click', function() {
+				recognizer.stop();
+				log.innerHTML = 'recognition stopped' + '<br/>' + log.innerHTML;
+			});
+
+			document.getElementById('what').addEventListener('click', function () {
+				speechSynthesis.speak(talk);
+			});
+		</script>
+	</body>
+</html>

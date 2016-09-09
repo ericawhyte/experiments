@@ -1,0 +1,35 @@
+		<script>
+			window.SpeechRecognition = window.SpeechRecognition        ||
+                                    window.webkitSpeechRecognition  ||
+                                    null;
+			var recognition = new window.webkitSpeechRecognition();
+			var transcribe = document.getElementById('transcribe');
+			var log = document.getElementById('log');
+
+			//Doesn't stop listening if the user pauses
+			recognition.continuous = true;
+
+			//Start recognizing speech
+			recognition.onresult = function(event) {
+				transcribe.textContent = '';
+				for (var i = event.resultIndex; i < event.results.length; i++) {
+					if (event.results[i].isFinal) {
+						transcribe.textContent = event.results[i][0].transcript + ' (Confidence: ' + event.results[i][0].Confidence + ')';
+					} else {
+						transcribe.textContent += event.results[i][0].transcript;
+					}
+				}
+			};
+
+			//Add event listener to start button
+			document.getElementById('start').addEventListener('click', function() {
+				recognition.start();
+				log.innerHTML = 'recognition started' + '<br/>' + log.innerHTML;
+			});
+
+			//Add event listener to stop button
+			document.getElementById('stop').addEventListener('click', function() {
+				recognition.stop();
+				log.innerHTML = 'recognition stopped' + '<br/>' + log.innerHTML;
+			});
+		</script>
